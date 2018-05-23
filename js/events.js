@@ -2,7 +2,7 @@
 function getIt()
 {
   $("p").on('click', function() {
-    return "Hey!"
+    alert("Hey!")
   })
 }
 
@@ -23,5 +23,8 @@ function submitIt()
 
 $(document).ready(function(){
 // call functions here
-
+  getIt();
+  frameIt();
+  pressIt();
+  submitIt();
 });
